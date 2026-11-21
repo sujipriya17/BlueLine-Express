@@ -1,0 +1,6 @@
+{
+  "name": "BlueLine Express",
+  "description": "Online Bus Ticket Reservation System across Tamil Nadu districts with seat selection, booking management, cancellation tracking, and admin fleet operations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

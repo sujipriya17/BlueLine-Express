@@ -1,0 +1,51 @@
+export const TAMIL_NADU_DISTRICTS: readonly string[] = [
+  'Ariyalur',
+  'Chengalpattu',
+  'Chennai',
+  'Coimbatore',
+  'Cuddalore',
+  'Dharmapuri',
+  'Dindigul',
+  'Erode',
+  'Kallakurichi',
+  'Kancheepuram',
+  'Kanniyakumari',
+  'Karur',
+  'Krishnagiri',
+  'Madurai',
+  'Mayiladuthurai',
+  'Nagapattinam',
+  'Namakkal',
+  'Nilgiris',
+  'Perambalur',
+  'Pudukkottai',
+  'Ramanathapuram',
+  'Ranipet',
+  'Salem',
+  'Sivaganga',
+  'Tenkasi',
+  'Thanjavur',
+  'Theni',
+  'Thoothukudi',
+  'Tiruchirappalli',
+  'Tirunelveli',
+  'Tirupathur',
+  'Tiruppur',
+  'Tiruvallur',
+  'Tiruvannamalai',
+  'Tiruvarur',
+  'Vellore',
+  'Viluppuram',
+  'Virudhunagar',
+] as const;
+
+export const BRAND_IMAGES = {
+  heroBus: '/src/assets/images/hero_blueline_bus_1795239309416.jpg',
+  sleeperInterior: '/src/assets/images/sleeper_coach_interior_1795239309105.jpg',
+  seaterInterior: '/src/assets/images/seater_coach_interior_1795239307128.jpg',
+  tamilNaduDestination: '/src/assets/images/tamil_nadu_destination_1795239309344.jpg',
+} as const;
+
+export function getTodayDateString(): string {
+  return new Date().toISOString().slice(0, 10);
+}
